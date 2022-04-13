@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, 'Helvetica Neue', sans-serif;
+  color: rgb(55, 77, 97);
+  background: rgb(241, 243, 245);
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-gap: 16px;
+  max-width: 720px;
+  margin: 16px auto 0;
+  height: 100%;
+}
+
+.container > * {
+  border: 1px dashed rgb(185, 203, 222);
+  padding: 16px;
+}
+
