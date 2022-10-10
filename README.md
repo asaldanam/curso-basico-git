@@ -61,6 +61,9 @@ Podemos solucionar esto cambiando el nombre de la rama en local:
 
 - Renombrar la rama: `git branch -M main`
 - Sincronizarla: `git push -u origin main`
+  - Antes de sincronizar hay que hacer un commit inicial. Para ello:
+    - `git add .`
+    - `git commit -m "initial commit"`
 
 ## Clonar un repo ya existente
 Cuando quieres crearte una copia de un repositorio en Github ya existente, podemos hacerlo con el siguiente comando:
